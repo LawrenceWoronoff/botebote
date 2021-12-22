@@ -1,0 +1,410 @@
+
+@font-face {
+  font-family: 'Rockwell Nova';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/RockwellNova.woff');
+}
+  
+
+@font-face {
+  font-family: 'Rockwell Nova Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/RockwellNova-Bold.woff');
+}
+
+@font-face {
+  font-family: 'Gamer';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/PixelEmulator-xq08.ttf') format('truetype');
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  padding-bottom: 50px; /* Location of the box */
+  
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rockwell Nova';
+}
+
+
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
+  border-radius: 30px
+}
+
+.elige_modal.modal-content {
+  width: 50%;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {    
+    color: white;
+    right: -20px;
+    top: -20px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: bold;
+    
+    background: #ef0d0d;
+    width: 65px;
+    height: 65px;
+    padding-top: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(27, 26, 26);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  border-radius: 30px 30px 0px 0px;
+  padding: 25px;
+  background-color: #75df75;
+}
+
+.modal-content h2 {
+  margin-bottom: initial; 
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.modal-content h3 {
+  margin-bottom: initial; 
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.modal-body {
+  padding: 30px 30px 50px 30px;
+  text-align: center;
+}
+
+/* .modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white; 
+}*/
+
+.modal-content h1{
+  color: black;
+}
+
+.modal-content h4{
+  color: black;
+  font-size: 28px;
+  margin: initial;
+}
+
+
+.modal-button{
+  background-color: #f2c936;
+  color: white !important;
+  cursor: pointer; padding: 10px;
+  font-weight: bold; letter-spacing: 1px;
+  font-size: 20px;
+  font-family: 'Gamer' !important;
+}
+
+.modal-button:hover{
+  background-color: #F7D52B;
+  color: black !important;
+}
+
+.fixedHeight1 {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elige-modal-button {
+  cursor: pointer; background-color: #f2c936; padding: 10px;
+  color: black; font-weight: bold; letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.elige-modal-button:hover{
+  background-color: #F7D52B;
+  color: white !important;
+}
+
+.participar_div {
+  width: 40%; 
+  border: solid 1px #f2c936; 
+  display: inline-block;
+}
+
+.specialBorder {
+  border: solid 1px #b83dba !important; 
+}
+.specialBack {
+  background-color: #b83dba  !important;
+  font-size: 24px !important;
+  padding: 10px 0px;
+}
+.specialBack:hover {
+  background-color: #d34ad5 !important;
+}
+
+.specialBorder1 {
+  border: solid 1px #FF5733 !important; 
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.specialBack1 {
+  background-color: #FF5733  !important;
+  font-size: 24px !important;
+  padding: 10px 0px;
+}
+.specialBack1:hover {
+  background-color: #F71226 !important;
+}
+
+.specialBorder2 {
+  border: solid 1px #387DFF !important; 
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.specialBack2 {
+  background-color: #387DFF  !important;
+  font-size: 24px !important;
+  padding: 10px 0px;
+}
+.specialBack2:hover {
+  background-color: #1163fa !important;
+}
+
+.sorteo_container {
+  width: 30%;
+  border: solid 1px #F7D52B; 
+  display: inline-block;
+  margin: 25px 10px 0px 10px;
+}
+
+.rest_panel{
+  width: 25%;
+  display: inline-block
+}
+
+.auth-input-div
+{
+  width: 60%;
+}
+
+.auth-input {
+  color: black !important; 
+  border: solid 1px gray !important;
+  margin: 10px; 
+}
+
+.auth-submit-div {
+  width: 60%; 
+  margin: 10px auto; 
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.SorteoModalBtnLogo {
+  height: 150%;
+  left: -37px;
+  top: -25%;
+  position: absolute;
+}
+
+.EligeModalBtnLogo {
+  height: 50px;
+  left: -25px;
+  bottom: calc(50% - 25px);
+  position: absolute;
+}
+
+.dn-ipad {
+  display: block;
+}
+
+.bottomSpecial  {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile view */
+
+
+@media screen and (max-width: 1600px) {
+  .elige_modal.modal-content{
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .modal-content{
+    width: 50%;
+  }
+  .elige_modal.modal-content{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .modal-content{
+    width: 55%;
+  }
+  .elige_modal.modal-content{
+    width: 70%;
+  }
+  .modal-content h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .modal-content{
+    width: 60%;
+  }
+  .elige_modal.modal-content{
+    width: 75%;
+  }
+  .sorteo_container{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .modal-content{
+    width: 95%;
+  }
+  .elige_modal.modal-content{
+    width: 95%;
+  }
+  .dn-ipad {
+    /* display: none; */
+  }
+
+  .bottomSpecial{
+    justify-content: left !important;
+  }
+
+  .mobile-overlap-prevent {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    width: 97%;
+  }
+  .elige_modal.modal-content{
+    width: 97%;
+  }
+  .sorteo_container{
+    width: 90%;
+  }
+  
+  .close {
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    padding-top: 6px;
+  }
+
+  .modal-content h2{
+    font-size: x-large;
+  }
+
+  .modal-content h3{
+    font-size: large;
+  }
+
+  .modal-content h4{
+    font-size: 20px;
+  }
+
+  .participar_div{
+    width: 70%;
+  }
+
+  .modal-body {
+    padding: 30px 5px 50px 5px;
+  }
+
+  .rest_panel{
+    width: 10%;
+  }
+  .auth-input-div {
+    width: 80%;
+  }
+  .auth-submit-div {
+    width: 80%;
+  }
+
+  .SorteoModalBtnLogo {
+    height: 80%;
+    left: 0;
+    top: 10%;
+    position: absolute;
+  }
+
+  .EligeModalBtnLogo {
+    height: 40px;
+    left: -10px;
+    bottom: 5px;
+    position: absolute;
+  }
+
+  .bottomSpecial {
+    display: block !important;
+  }
+}
+
+

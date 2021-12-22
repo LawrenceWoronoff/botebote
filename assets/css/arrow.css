@@ -1,0 +1,359 @@
+
+@keyframes arrow-anim {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+   }
+    5% {
+        transform: translateX(-0.1rem);
+   }
+    100% {
+        transform: translateX(1rem);
+        opacity: 0;
+   }
+}
+@keyframes arrow-fixed-anim {
+    5% {
+        opacity: 0;
+   }
+    20% {
+        opacity: 0.4;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+
+
+  
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media screen and (max-width: 480px) {
+    .rest_panel svg {
+        width: 100%;
+    }
+}
+
+.gray_panel svg {
+    width: 80px;
+    height: auto;
+    cursor: auto;
+    overflow: visible;
+    fill: lightgray;
+    margin-bottom: 20px;
+}
+
+.gray_panel polygon {
+    fill: lightgray;
+}
+.gray_panel path {
+    fill: lightgray;
+}
+.gray_panel path {
+    fill: lightgray;
+}
+
+@media screen and (max-width: 480px) {
+    .gray_panel svg {
+        width: 100%;
+    }
+}
+/* Sorteo Right and Left Arrow Panel */
+
+.sorteo_left_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+
+.sorteo_left_panel svg polygon, .sorteo_left_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.sorteo_left_panel svg:hover polygon, .sorteo_left_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.sorteo_left_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.sorteo_left_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .sorteo_left_panel svg {
+        width: 100%;
+    }
+}
+/* =============================================== */
+
+.sorteo_right_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+.sorteo_right_panel svg polygon, .sorteo_right_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.sorteo_right_panel svg:hover polygon, .sorteo_right_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.sorteo_right_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.sorteo_right_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .sorteo_right_panel svg {
+        width: 100%;
+    }
+}
+
+
+/* Moneda al rio Right and Left Arrow Panel */
+
+.moneda_left_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+
+.moneda_left_panel svg polygon, .moneda_left_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.moneda_left_panel svg:hover polygon, .moneda_left_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.moneda_left_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.moneda_left_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .moneda_left_panel svg {
+        width: 100%;
+    }
+}
+/* =============================================== */
+
+.moneda_right_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+.moneda_right_panel svg polygon, .moneda_right_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.moneda_right_panel svg:hover polygon, .moneda_right_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.moneda_right_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.moneda_right_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .moneda_right_panel svg {
+        width: 100%;
+    }
+}
+
+/* Hacer una Prueba Right and Left Arrow Panel */
+
+.hacer_left_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+
+.hacer_left_panel svg polygon, .hacer_left_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.hacer_left_panel svg:hover polygon, .hacer_left_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.hacer_left_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.hacer_left_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .hacer_left_panel svg {
+        width: 100%;
+    }
+}
+/* =============================================== */
+
+.hacer_right_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+.hacer_right_panel svg polygon, .hacer_right_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.hacer_right_panel svg:hover polygon, .hacer_right_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.hacer_right_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.hacer_right_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .hacer_right_panel svg {
+        width: 100%;
+    }
+}
+
+/* Jugar ya Sub modal Right and Left Arrow Panel */
+
+.jugar_left_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+
+.jugar_left_panel svg polygon, .jugar_left_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.jugar_left_panel svg:hover polygon, .jugar_left_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.jugar_left_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.jugar_left_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .jugar_left_panel svg {
+        width: 100%;
+    }
+}
+/* =============================================== */
+
+.jugar_right_panel svg {
+    width: 80px;
+    height: auto;
+    /* margin: 0 2rem; */
+    cursor: pointer;
+    overflow: visible;
+    fill: #f2c936;
+    margin-bottom: 20px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2s; /* Firefox < 16 */
+          -ms-animation: fadein 2s; /* Internet Explorer */
+           -o-animation: fadein 2s; /* Opera < 12.1 */
+              animation: fadein 2s;
+}
+.jugar_right_panel svg polygon, .jugar_right_panel svg path {
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+}
+.jugar_right_panel svg:hover polygon, .jugar_right_panel svg:hover path {
+    transition: all 1s cubic-bezier(0.2, 1, 0.3, 1);
+    fill: #f2f431;
+}
+.jugar_right_panel svg:hover .arrow {
+    animation: arrow-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+.jugar_right_panel svg:hover .arrow-fixed {
+    animation: arrow-fixed-anim 2.5s cubic-bezier(0.2, 1, 0.3, 1) infinite;
+}
+
+@media screen and (max-width: 480px) {
+    .jugar_right_panel svg {
+        width: 100%;
+    }
+}
