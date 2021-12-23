@@ -3784,6 +3784,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		.goto-next {
+			bottom: 3.65rem !important;
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
