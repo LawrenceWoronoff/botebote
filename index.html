@@ -20,6 +20,7 @@
 
 	    <!--Favicon-->
 	    <link rel="icon" href="images/coinFavicon.png" type="image/png" />
+		<script src="https://kit.fontawesome.com/b24573b0a1.js" crossorigin="anonymous"></script>
 
 	</head>
 	<body class="is-preload landing">
@@ -34,8 +35,19 @@
 								<a href="" id="sorteo_Btn" class="sorteo_Btn" style="cursor: pointer !important;">Sorteo rápido</a>
 							</li>
 							<li>
+								<a href="" id="duel_Btn">DUEL</a>
+							</li>
+							<li>
+								<a href="" id="triplete_Btn">Triplete</a>
+							</li>
+							<li>
 								<a href="" id="moneda_Btn" class="moneda_Btn" style="cursor: pointer !important;">Moneda al río</a>
 							</li>
+							<li> | </li>
+
+							<!-- <li><a href="#"><i class="fas fa-user-astronaut"></i> Username</a></li>
+							<li><a href="#" class="button primary">Jugar ya</a></li> -->
+
 							<li><a href="" id="registerBtn" class="registerBtn" style="cursor: pointer !important;">Registrarse</a></li>
 							<li><a href="" id="loginBtn" class="button primary loginBtn">Iniciar sesión</a></li>
 						</ul>
@@ -742,13 +754,17 @@
 				// ==============  Moneo Modal Functions =============== //
 				var moneda_index = 0;
 				var moneda_ganas = [
+					"Gana 250€",
 					"Gana 500€",
 					"Gana 1000€",
+					"Gana 100€",
 					"Gana 1000€",
 				];
 				var moneda_persons = [
+					"250 personas",
 					"500 personas",
 					"500 personas",
+					"1000 personas",
 					"1000 personas",
 				];
 				$("#moneda_gana").html(moneda_ganas[moneda_index]);
@@ -921,7 +937,7 @@
 					'500 personas',
 					'1000 personas',
 					'2 personas',
-					['500 personas','500 personas', '1000 personas'],
+					['250 psersonas', '500 personas','500 personas', '1000 personas', '1000 personas'],
 				]
 				var contents_mode = [
 					['100€', '500€', '1,000€' , '4,000€' , '10,000€', '20,000€'],
@@ -931,8 +947,8 @@
 					['250€', '500€', '1,000€', '5,000€', '10,000€', '20,000€'],
 					['500€', '1,000€', '5,000€', '10,000€', '20,000€', '50K€', '100K€'],
 					['1,000€', '5,000€', '10,000€', '25,000€', '50K€', '75K€', '100K€'],
-					['50€', '100€', '250€', '500€', '1,000€', '2,500€', '5,000€', '10,000€'],
-					['500€', '1,000€', '1,000€'],
+					['100€', '250€', '500€', '1,000€', '2,500€', '5,000€', '10,000€'],
+					['250€', '500€', '1,000€', '100€', '1,000€'],
 				];
 
 				// When the user clicks the button, open the modal 

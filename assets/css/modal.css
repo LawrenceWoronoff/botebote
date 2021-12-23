@@ -182,15 +182,15 @@
 }
 
 .specialBorder {
-  border: solid 1px #b83dba !important; 
+  border: solid 1px #e844eb  !important; 
 }
 .specialBack {
-  background-color: #b83dba  !important;
+  background-color: #e844eb  !important;
   font-size: 24px !important;
   padding: 10px 0px;
 }
 .specialBack:hover {
-  background-color: #d34ad5 !important;
+  background-color: #ef09f3  !important;
 }
 
 .specialBorder1 {
