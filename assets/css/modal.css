@@ -195,9 +195,9 @@
 
 .specialBorder1 {
   border: solid 1px #FF5733 !important; 
-  display: flex !important;
+  /* display: flex !important;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .specialBack1 {
   background-color: #FF5733  !important;
@@ -208,11 +208,26 @@
   background-color: #F71226 !important;
 }
 
+.specialBorder3 {
+  border: solid 1px  #0FFB92  !important; 
+  /* display: flex !important;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+.specialBack3 {
+  background-color:  #0FFB92   !important;
+  font-size: 24px !important;
+  padding: 10px 0px;
+}
+.specialBack3:hover {
+  background-color:  #00ff62  !important;
+}
+
 .specialBorder2 {
   border: solid 1px #387DFF !important; 
-  display: flex !important;
+  /* display: flex !important;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .specialBack2 {
   background-color: #387DFF  !important;
